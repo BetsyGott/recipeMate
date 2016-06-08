@@ -1,0 +1,20 @@
+.placeholderstyle {
+    background-color: lightseagreen;
+}
+
+.logo-placeholder {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+}
+
+.nav-center {
+    text-align: center;
+}
+.nav-center ul.nav {
+    display: inline-block;
+}
+.nav-center ul.nav li {
+    display: inline a;
+    display-float: left;
+}
