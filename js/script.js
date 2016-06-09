@@ -1,6 +1,25 @@
-var recipeMate = angular.module('recipeMate', [])
+var app = angular.module('recipeMate', ['ngRoute']);
 
-.controller('MainController', function(){
+app.config(function($routeProvider){
+
+    $routeProvider
+        .when('/', {
+            templateUrl: 'nutrition.html'
+            // controller: "nameOfControllerForThisSpecificPage"
+        })
+        .when('/database', {
+            templateUrl: 'database.html'
+        })
+        .when('/dashboard', {
+            templateUrl: 'dashboard.html'
+        })
+        .otherwise({
+           redirectTo: '/'
+        });
+
+});
+
+app.controller('mainController', function(){
     this.foodList = [
     {
         name: 'Hamburger',
