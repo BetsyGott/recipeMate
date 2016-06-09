@@ -5,7 +5,7 @@ app.config(function($routeProvider){
     $routeProvider
         .when('/', {
             templateUrl: 'nutrition.html'
-            // controller: "nameOfControllerForThisSpecificPage"
+            controller: "mainController"
         })
         .when('/database', {
             templateUrl: 'database.html'
