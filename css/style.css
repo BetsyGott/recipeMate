@@ -1,3 +1,23 @@
+body {
+    margin: 0;
+}
+
+.logo-container {
+    background: url("../images/icons/food.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+    padding:40px;
+}
+
+h1.recipe-mate-title {
+    font-family: 'Londrina Solid';
+    margin: 0;
+    position: absolute;
+    top: 45px;
+    left: 30px;
+}
+
 .placeholderstyle {
     background-color: lightseagreen;
 }
@@ -9,7 +29,7 @@
     display: inline-block;
 }
 .nav-center ul.nav li {
-    display: inline a;
+    display: inline-block;
     display-float: left;
 }
 
